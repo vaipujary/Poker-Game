@@ -465,7 +465,7 @@ void shuffle_cards(card *headp, int seed) { // function to shuffle cards in the 
             
         strcpy(temp_suit, pt->suit);
             
-        if(strcmp(pt->suit, temp->suit)!=0) {
+        if(strcmp(pt->suit, temp->suit) != 0) {
                 
             strcpy(pt->suit, temp->suit);
                 
